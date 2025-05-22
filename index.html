@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<HTML lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CV - Trần Ngọc Thái</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+      padding: 20px;
+    }
+
+    .cv-container {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #3498db;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: 28px;
+      color: #2c3e50;
+    }
+
+    h2 {
+      margin: 20px 0 10px;
+      color: #2980b9;
+      border-left: 4px solid #2980b9;
+      padding-left: 10px;
+    }
+
+    p, li {
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .section {
+      margin-bottom: 25px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill {
+      background: #3498db;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+    }
+
+    .project {
+      margin-bottom: 15px;
+    }
+
+    @media (max-width: 768px) {
+      .grid-2 {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="cv-container">
+    <!-- Header -->
+    <div class="header">
+      <img src="avatar.jpg" alt="Ảnh Đại Diện" class="avatar" />
+      <h1>Trần Ngọc Thái</h1>
+      <p>Cyber Security | Frontend & Backend</p>
+      <p>Email: ngocthaitran06@gmail.com | Điện thoại: 0934923731</p>
+    </div>
+
+    <!-- Mục tiêu nghề nghiệp -->
+    <div class="section">
+      <h2>Mục tiêu nghề nghiệp</h2>
+      <p>Mong muốn trở thành một an ninh mạng chuyên nghiệp, trao dồi kinh nghiệm và kiến thức để bảo vệ một môi trường mạng lành mạnh và truy bắt tội phạm có hành vi sai trái về mặt pháp luật.</p>
+    </div>
+
+    <!-- Học vấn -->
+    <div class="section">
+      <h2>Học vấn</h2>
+      <ul>
+        <li>Đại học FPT TP.Đà Nẵng (2025)</li>
+        <li>Chuyên ngành: An Toàn Thông Tin | GPA: 3.5/4.0</li>
+      </ul>
+    </div>
+
+    <!-- Kinh nghiệm làm việc -->
+    <div class="section">
+      <h2>Kinh nghiệm làm việc</h2>
+      <ul>
+        <li><strong>Senior Web Developer </strong> – Công ty VNGGames (2/2025)
+          <ul>
+            <li>Tham gia xây dựng giao diện ReactJS cho hệ thống quản lý nhân sự</li>
+            <li>Fix bugs, tối ưu trải nghiệm người dùng (UX)</li>
+          </ul>
+        </li>
+        <li><strong>Freelancer</strong> – Làm dự án cá nhân và hỗ trợ doanh nghiệp nhỏ (4/2025)</li>
+      </ul>
+    </div>
+
+    <!-- Hoạt động -->
+    <div class="section">
+      <h2>Hoạt động</h2>
+      <ul>
+        <li>Thành viên CLB Lập trình UIT – Hướng dẫn viên cho sinh viên năm nhất</li>
+        <li>Tham gia Hackathon Hack4Growth 2025 – Top 10 đội xuất sắc</li>
+      </ul>
+    </div>
+
+    <!-- Kỹ năng -->
+    <div class="section">
+      <h2>Kỹ năng</h2>
+      <div class="skills">
+        <div class="skill">HTML/CSS/JavaScript</div>
+        <div class="skill">ReactJS</div>
+        <div class="skill">Node.js</div>
+        <div class="skill">MySQL / MongoDB</div>
+        <div class="skill">Git / GitHub</div>
+        <div class="skill">Figma / UI Design</div>
+      </div>
+    </div>
+
+    <!-- Chứng chỉ - Giải thưởng -->
+    <div class="section">
+      <h2>Chứng chỉ - Giải thưởng</h2>
+      <ul>
+        <li>Chứng chỉ Google UX Design – Coursera (2024)</li>
+        <li>Giải Ba Olympic Tin học cấp trường (2024)</li>
+      </ul>
+    </div>
+
+    <!-- Sở thích -->
+    <div class="section">
+      <h2>Sở thích</h2>
+      <ul>
+        <li>Tìm hiểu hack </li>
+        <li>Chơi Game, Nghe Nhạc</li>
+        <li>Đọc sách về công nghệ và phát triển bản thân</li>
+      </ul>
+    </div>
+
+    <!-- Dự án -->
+    <div class="section">
+      <h2>Dự án</h2>
+      <div class="project">
+        <strong>Website Quản lý sinh viên</strong><br />
+        <em>ReactJS + Node.js + MongoDB</em><br />
+        <p>Ứng dụng giúp quản lý thông tin sinh viên, phân quyền user, export dữ liệu.</p>
+      </div>
+      <div class="project">
+        <strong>Portfolio cá nhân</strong><br />
+        <em>HTML/CSS/JS tĩnh, Responsive</em><br />
+        <p>Giao diện giới thiệu bản thân và các dự án, deploy qua GitHub Pages.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
